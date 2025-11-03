@@ -1,6 +1,6 @@
-def main():
-    print("Hello from yt-scraper!")
-
+# from extractor.scraper import main
+from extractor.scraper2 import main
+from extractor.scraper2 import video_links
 
 if __name__ == "__main__":
-    main()
+    main(video_links)
