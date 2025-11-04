@@ -1,6 +1,5 @@
-# from extractor.scraper import main
-from extractor.scraper2 import main
-from extractor.scraper2 import video_links
+from extractor.scraper import main
+from loader.loader import json_to_excel
 
 if __name__ == "__main__":
-    main(video_links)
+    json_to_excel()
